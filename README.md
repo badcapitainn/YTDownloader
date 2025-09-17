@@ -12,7 +12,6 @@ A powerful tool to download YouTube videos and playlists using Python and yt-dlp
 - 🎨 Colored terminal output (CLI version)
 - 🖥️ User-friendly GUI interface
 - 📂 Custom output directory support
-- 📦 Standalone executable creation
 
 ## Installation
 
@@ -144,36 +143,10 @@ Run the script with `--help` to see all available options:
 python yt_downloader.py --help
 ```
 
-## Creating Executable
-
-To create a standalone executable that doesn't require Python installation:
-
-### Windows
-```bash
-# Run the build script
-python build_executable.py
-
-# Or use the batch file
-build.bat
-```
-
-### Manual Build
-```bash
-# Install PyInstaller
-pip install pyinstaller
-
-# Build executable
-pyinstaller --onefile --windowed --name=YouTube_Downloader yt_downloader_gui.py
-```
-
-The executable will be created in the `dist` folder and can be distributed without requiring Python installation.
-
 ## Files
 
 - `yt_downloader.py` - Command-line version
 - `yt_downloader_gui.py` - GUI version
-- `build_executable.py` - Build script for creating executable
-- `build.bat` - Windows batch file for building
 - `requirements.txt` - Python dependencies
 
 ## License
