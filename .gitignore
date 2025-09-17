@@ -4,6 +4,10 @@ dist/
 *.spec
 *.exe
 
+# Build scripts
+build_executable.py
+build.bat
+
 # Python cache
 __pycache__/
 *.py[cod]
